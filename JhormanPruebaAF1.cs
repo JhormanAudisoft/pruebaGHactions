@@ -22,7 +22,7 @@ namespace Company.Function
             var response = req.CreateResponse(HttpStatusCode.OK);
             response.Headers.Add("Content-Type", "text/plain; charset=utf-8");
 
-            response.WriteString("Hola, segudo commit, Hola mundo XD");
+            response.WriteString("Hola, segundo commit, Hola mundo XD");
 
             return response;
         }
